@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<oracle.dbtools.crest.model.design.relational.RelationalDesign>
+   <object objectType="Table" objectID="7FB479F3-C0C8-F303-2554-0EDA67E81FD7" name="hip" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.relational.Table" propertyParentId="D5AFF457-023A-FFBA-CC8C-D737562E2B1F" propertySourceId="" propertyTargetId=""/>
+   <object objectType="Table" objectID="770A19B0-7893-B224-CE4F-DA8F8B6C25DD" name="IMCH" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.relational.Table" propertyParentId="D5AFF457-023A-FFBA-CC8C-D737562E2B1F" propertySourceId="" propertyTargetId=""/>
+   <object objectType="Table" objectID="00825D87-F3B2-1B5F-43DB-09E011D81BC1" name="Pes" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.relational.Table" propertyParentId="D5AFF457-023A-FFBA-CC8C-D737562E2B1F" propertySourceId="" propertyTargetId=""/>
+   <object objectType="Table" objectID="68B41AE1-6B79-260D-BFEB-4EFD31DB6035" name="Pessoa1" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.relational.Table" propertyParentId="D5AFF457-023A-FFBA-CC8C-D737562E2B1F" propertySourceId="" propertyTargetId=""/>
+   <object objectType="FKIndexAssociation" objectID="135B320B-848C-2FBF-CBC7-E21DC5359B9F" name="hip_pesv1_FK" seqName="seg_0" containerID="7FB479F3-C0C8-F303-2554-0EDA67E81FD7" refContainerID="68B41AE1-6B79-260D-BFEB-4EFD31DB6035" propertyClassName="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" propertyParentId="D5AFF457-023A-FFBA-CC8C-D737562E2B1F" propertySourceId="68B41AE1-6B79-260D-BFEB-4EFD31DB6035" propertyTargetId="7FB479F3-C0C8-F303-2554-0EDA67E81FD7"/>
+</oracle.dbtools.crest.model.design.relational.RelationalDesign>

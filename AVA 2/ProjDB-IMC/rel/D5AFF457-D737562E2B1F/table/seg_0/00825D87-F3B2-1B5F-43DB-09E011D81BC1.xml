@@ -1,0 +1,36 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="00825D87-F3B2-1B5F-43DB-09E011D81BC1" name="Pes">
+<createdBy>caio.enrique</createdBy>
+<createdTime>2025-04-28 23:45:55 UTC</createdTime>
+<generatorID>1A61C56C-77FB-3888-262B-96DDDC9736A5</generatorID>
+<ownerDesignName>ProjDB-IMC</ownerDesignName>
+<abbreviation>Pes</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="nomePessoa" id="C8A5406D-7160-6016-DE37-77A040E3E7E5">
+<createdBy>caio.enrique</createdBy>
+<createdTime>2025-04-28 23:45:55 UTC</createdTime>
+<generatorID>B82BC4EE-D3AE-2B7D-5A9E-203774C338A9</generatorID>
+<ownerDesignName>ProjDB-IMC</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>60 CHAR</dataTypeSize>
+<ownDataTypeParameters>60 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="cpfPessoa" id="F1488023-65B7-38D8-52BB-EEE2AA833CC1">
+<createdBy>caio.enrique</createdBy>
+<createdTime>2025-04-28 23:45:55 UTC</createdTime>
+<generatorID>3E2A0872-8CAC-20F1-B34B-23B9FDB31BB5</generatorID>
+<ownerDesignName>ProjDB-IMC</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+</Table>

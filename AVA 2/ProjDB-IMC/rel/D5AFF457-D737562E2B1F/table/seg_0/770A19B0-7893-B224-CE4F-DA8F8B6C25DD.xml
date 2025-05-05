@@ -1,0 +1,58 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="770A19B0-7893-B224-CE4F-DA8F8B6C25DD" name="IMCH">
+<createdBy>caio.enrique</createdBy>
+<createdTime>2025-04-28 23:45:55 UTC</createdTime>
+<generatorID>5F0A3DC3-C7DF-3BB7-AA7F-E5DD9033C10B</generatorID>
+<ownerDesignName>ProjDB-IMC</ownerDesignName>
+<abbreviation>IMCH</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="dataMedicao" id="63CA2B1B-418C-332D-9BFB-D080E7C5DA1E">
+<createdBy>caio.enrique</createdBy>
+<createdTime>2025-04-28 23:45:55 UTC</createdTime>
+<generatorID>B5C2CFC2-4799-F451-8AA5-196B687BEC67</generatorID>
+<ownerDesignName>ProjDB-IMC</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="pesoMedicao" id="D9EDC992-3F04-CB2B-ADFD-AC01E4447BAE">
+<createdBy>caio.enrique</createdBy>
+<createdTime>2025-04-28 23:45:55 UTC</createdTime>
+<generatorID>A9FB5B60-7D46-D44D-FBCC-C3817F37C2AD</generatorID>
+<ownerDesignName>ProjDB-IMC</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT021</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,3,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="alturaMedicao" id="766A5AAD-21F2-288A-5616-D37DF29BBA48">
+<createdBy>caio.enrique</createdBy>
+<createdTime>2025-04-28 23:45:55 UTC</createdTime>
+<generatorID>39F8F6D6-4EA1-CC1C-780B-C1985B079E50</generatorID>
+<ownerDesignName>ProjDB-IMC</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT021</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,3,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="cpfPessoa" id="0574B118-FE87-098E-C564-3521881B2B70">
+<createdBy>caio.enrique</createdBy>
+<createdTime>2025-04-28 23:45:55 UTC</createdTime>
+<generatorID>0C1879B7-6B0C-7352-BC4F-E2DCBA4F45FA</generatorID>
+<ownerDesignName>ProjDB-IMC</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+</Table>
