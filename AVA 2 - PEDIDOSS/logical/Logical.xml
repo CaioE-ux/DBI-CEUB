@@ -1,7 +1,0 @@
-<?xml version = '1.0' encoding = 'UTF-8'?>
-<LogicalDesign class="oracle.dbtools.crest.model.design.logical.LogicalDesign" name="Logical" id="2279BB09-516C-6E58-8B73-45904A328115" mainViewID="0404F79F-F7E8-91BB-6294-D49036C8A929">
-<createdBy>caio.enrique</createdBy>
-<createdTime>2025-05-05 23:05:25 UTC</createdTime>
-<ownerDesignName>AVA 2 - PEDIDOSS</ownerDesignName>
-<shouldBeOpen>false</shouldBeOpen>
-</LogicalDesign>
