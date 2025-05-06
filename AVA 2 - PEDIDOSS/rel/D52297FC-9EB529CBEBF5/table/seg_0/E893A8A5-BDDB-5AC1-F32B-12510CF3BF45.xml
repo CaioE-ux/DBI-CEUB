@@ -1,0 +1,87 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="E893A8A5-BDDB-5AC1-F32B-12510CF3BF45" name="Cliente">
+<createdBy>caio.enrique</createdBy>
+<createdTime>2025-05-06 00:40:45 UTC</createdTime>
+<generatorID>184C30DD-6847-CC9F-BDE2-CF39E8FEFEE4</generatorID>
+<ownerDesignName>AVA 2 - PEDIDOSS</ownerDesignName>
+<abbreviation>Cli</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_cliente" id="F6FF20B5-7D7A-FCDA-2013-71A358747AAD">
+<createdBy>caio.enrique</createdBy>
+<createdTime>2025-05-06 00:40:45 UTC</createdTime>
+<generatorID>9A3493BE-9ACC-D1DF-964A-DA6CA0AF924A</generatorID>
+<ownerDesignName>AVA 2 - PEDIDOSS</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypeScale>100</dataTypeScale>
+<ownDataTypeParameters>,,100</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Nome_completo" id="19EF691B-26C1-60B2-BD93-D12CEE2D37BB">
+<createdBy>caio.enrique</createdBy>
+<createdTime>2025-05-06 00:40:45 UTC</createdTime>
+<generatorID>072E7FCA-1203-EB44-4137-2F40C61EAD12</generatorID>
+<ownerDesignName>AVA 2 - PEDIDOSS</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CPF" id="7A8B435F-6747-7A33-C788-25134B8D83A7">
+<createdBy>caio.enrique</createdBy>
+<createdTime>2025-05-06 00:40:45 UTC</createdTime>
+<generatorID>4E41580E-BC72-0AFA-3700-6D25EDF1CD8A</generatorID>
+<ownerDesignName>AVA 2 - PEDIDOSS</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>13</dataTypeSize>
+<ownDataTypeParameters>13,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Endereço" id="37345DB1-C0A1-284E-CDA9-51AF643A0449">
+<createdBy>caio.enrique</createdBy>
+<createdTime>2025-05-06 00:40:45 UTC</createdTime>
+<generatorID>8173183B-EFBE-0C9C-E19E-AC1793A252FF</generatorID>
+<ownerDesignName>AVA 2 - PEDIDOSS</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200</dataTypeSize>
+<ownDataTypeParameters>200,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Telefone" id="A0B0FC71-1F67-6274-229B-7DFD6FA60E16">
+<createdBy>caio.enrique</createdBy>
+<createdTime>2025-05-06 00:40:45 UTC</createdTime>
+<generatorID>4F3730B6-1309-E68C-FF8D-5575BD79DAE5</generatorID>
+<ownerDesignName>AVA 2 - PEDIDOSS</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>16</dataTypeSize>
+<ownDataTypeParameters>16,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="466CD29A-0802-812B-8002-9AD00898AFE5" name="Cliente_PK">
+<createdBy>caio.enrique</createdBy>
+<createdTime>2025-05-06 00:40:45 UTC</createdTime>
+<generatorID>D0FD681A-4690-4B9E-A07B-DB5CEAEB3CF3</generatorID>
+<ownerDesignName>AVA 2 - PEDIDOSS</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F6FF20B5-7D7A-FCDA-2013-71A358747AAD"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
