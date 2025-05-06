@@ -1,0 +1,152 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="7F98FB7E-37A1-DB61-4C6D-424D84A71587" name="item">
+<createdBy>caio.enrique</createdBy>
+<createdTime>2025-05-05 23:37:47 UTC</createdTime>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<engineerTo>
+<item key="D52297FC-F339-55F6-3AEF-9EB529CBEBF5" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_item" id="A9F57340-B283-A930-8864-DF8F94DEB06B">
+<createdBy>caio.enrique</createdBy>
+<createdTime>2025-05-05 23:37:53 UTC</createdTime>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<engineerTo>
+<item key="D52297FC-F339-55F6-3AEF-9EB529CBEBF5" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypeScale>1000</dataTypeScale>
+<ownDataTypeParameters>,,1000</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_pedido" id="518AC068-C69E-AEC2-F07C-A0F19EAE16CF">
+<createdBy>caio.enrique</createdBy>
+<createdTime>2025-05-06 00:36:21 UTC</createdTime>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<engineerTo>
+<item key="D52297FC-F339-55F6-3AEF-9EB529CBEBF5" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="descricao" id="517AB3D5-A8F9-DD82-AA22-3B8C2C5216CC">
+<createdBy>caio.enrique</createdBy>
+<createdTime>2025-05-05 23:49:40 UTC</createdTime>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<engineerTo>
+<item key="D52297FC-F339-55F6-3AEF-9EB529CBEBF5" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="quantidade_pedida" id="1A8B90CD-CDC2-7A8D-8B7C-1EB67FCE73CB">
+<createdBy>caio.enrique</createdBy>
+<createdTime>2025-05-06 00:06:04 UTC</createdTime>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<engineerTo>
+<item key="D52297FC-F339-55F6-3AEF-9EB529CBEBF5" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT018</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="preco_u" id="FE852472-4F26-CB80-A0B9-D95AB771930B">
+<createdBy>caio.enrique</createdBy>
+<createdTime>2025-05-06 00:06:17 UTC</createdTime>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<engineerTo>
+<item key="D52297FC-F339-55F6-3AEF-9EB529CBEBF5" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<dataTypeScale>100</dataTypeScale>
+<ownDataTypeParameters>,,100</ownDataTypeParameters>
+</Attribute>
+<Attribute name="valor_total" id="7F0EAC8C-03EE-7758-B960-A3A86B4BE6D4">
+<createdBy>caio.enrique</createdBy>
+<createdTime>2025-05-06 00:06:40 UTC</createdTime>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<engineerTo>
+<item key="D52297FC-F339-55F6-3AEF-9EB529CBEBF5" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<dataTypeScale>100</dataTypeScale>
+<ownDataTypeParameters>,,100</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_vendedor" id="5DEE5523-292F-BAAA-B054-715BEBF3FA4F">
+<createdBy>caio.enrique</createdBy>
+<createdTime>2025-05-06 00:39:38 UTC</createdTime>
+<generatorID>1BB6073D-CBD6-A4C9-2710-3D39B0D4E0D0</generatorID>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<engineerTo>
+<item key="D52297FC-F339-55F6-3AEF-9EB529CBEBF5" value="true"/>
+</engineerTo>
+<referedAttribute>C8705C2D-A65D-0B64-D0E0-E81B52C11466</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_cliente" id="09A51BB3-9859-58AE-1780-67BDFB046D2D">
+<createdBy>caio.enrique</createdBy>
+<createdTime>2025-05-06 00:39:38 UTC</createdTime>
+<generatorID>1BB6073D-CBD6-A4C9-2710-3D39B0D4E0D0</generatorID>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<engineerTo>
+<item key="D52297FC-F339-55F6-3AEF-9EB529CBEBF5" value="true"/>
+</engineerTo>
+<referedAttribute>499B1BC7-564E-3B2B-5ED2-EBD3CD9793C6</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_pedido1" id="2EBD9170-F80A-CDB6-5A8A-9352B8525B9A">
+<createdBy>caio.enrique</createdBy>
+<createdTime>2025-05-06 00:39:38 UTC</createdTime>
+<generatorID>1BB6073D-CBD6-A4C9-2710-3D39B0D4E0D0</generatorID>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<engineerTo>
+<item key="D52297FC-F339-55F6-3AEF-9EB529CBEBF5" value="true"/>
+</engineerTo>
+<referedAttribute>F7D88175-881B-5094-A509-017660F917BC</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="1AFE21F3-2CC5-D0F2-8056-550FF9847D71" name="item PK">
+<createdBy>caio.enrique</createdBy>
+<createdTime>2025-05-05 23:39:46 UTC</createdTime>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<engineerTo>
+<item key="D52297FC-F339-55F6-3AEF-9EB529CBEBF5" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>A9F57340-B283-A930-8864-DF8F94DEB06B</attributeRef>
+<attributeRef>518AC068-C69E-AEC2-F07C-A0F19EAE16CF</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -1,0 +1,23 @@
+CLIENTE
+Nome completo
+cpf
+endereço
+telefone
+(vendas somente para 
+pessoas fisicas)
+
+VENDEDOR
+nome completo
+matricula
+
+PEDIDO
+ID
+data e hora
+vendedor
+cliente
+status
+item
+
+ITEM
+codigo do itemdescrição
+preço
