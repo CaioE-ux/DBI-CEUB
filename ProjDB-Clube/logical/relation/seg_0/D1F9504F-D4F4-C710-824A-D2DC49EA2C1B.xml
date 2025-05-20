@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="assossiadodependente" directorySegmentName="seg_0" id="D1F9504F-D4F4-C710-824A-D2DC49EA2C1B">
+<createdBy>caio.enrique</createdBy>
+<createdTime>2025-05-20 00:36:57 UTC</createdTime>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<engineerTo>
+<item key="EC81D5D8-C94F-4BB7-35F0-9CEC8ABC24F5" value="true"/>
+</engineerTo>
+<sourcePk>0E59C4E4-9158-AAFE-BDD8-0E20EC61185A</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>8C8BEF98-1691-D163-358B-A2B4DD4C964A</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>8A76C488-8B79-62F6-6934-7388DAF11CDC</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

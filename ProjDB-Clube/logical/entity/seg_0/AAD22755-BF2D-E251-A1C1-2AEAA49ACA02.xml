@@ -1,0 +1,125 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="AAD22755-BF2D-E251-A1C1-2AEAA49ACA02" name="TelefoneAssossiado">
+<createdBy>caio.enrique</createdBy>
+<createdTime>2025-05-19 23:39:12 UTC</createdTime>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<engineerTo>
+<item key="EC81D5D8-C94F-4BB7-35F0-9CEC8ABC24F5" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="TelefoneID" id="BC31EC4D-BDC0-2B37-CEA1-877D62BEEB04">
+<createdBy>caio.enrique</createdBy>
+<createdTime>2025-05-19 23:39:32 UTC</createdTime>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<engineerTo>
+<item key="EC81D5D8-C94F-4BB7-35F0-9CEC8ABC24F5" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>11</dataTypeSize>
+<ownDataTypeParameters>11,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="numero" id="667CE84F-F227-3EF6-3450-2809CE05B40C">
+<createdBy>caio.enrique</createdBy>
+<createdTime>2025-05-19 23:39:39 UTC</createdTime>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<engineerTo>
+<item key="EC81D5D8-C94F-4BB7-35F0-9CEC8ABC24F5" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>14</dataTypeSize>
+<ownDataTypeParameters>14,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="tipoTelefoneCliente" id="73104BA5-91D9-EDC5-80FA-D0C6F1BA12A4">
+<createdBy>caio.enrique</createdBy>
+<createdTime>2025-05-19 23:39:44 UTC</createdTime>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<engineerTo>
+<item key="EC81D5D8-C94F-4BB7-35F0-9CEC8ABC24F5" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="AssociadoID" id="4DDCF8B5-1B66-34DF-40C0-6F5E68CD6507">
+<createdBy>caio.enrique</createdBy>
+<createdTime>2025-05-19 23:53:11 UTC</createdTime>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<engineerTo>
+<item key="EC81D5D8-C94F-4BB7-35F0-9CEC8ABC24F5" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="DependenteID" id="C8D24C31-714C-3792-3BEA-C66D3813601F">
+<createdBy>caio.enrique</createdBy>
+<createdTime>2025-05-19 23:53:30 UTC</createdTime>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<engineerTo>
+<item key="EC81D5D8-C94F-4BB7-35F0-9CEC8ABC24F5" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="AssociadoID1" id="F50AD9F7-36E6-C5DF-3761-1CCE8C610FF1">
+<createdBy>caio.enrique</createdBy>
+<createdTime>2025-05-20 00:40:49 UTC</createdTime>
+<generatorID>D78D9822-002C-A68E-0F28-9F01712695F8</generatorID>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<engineerTo>
+<item key="EC81D5D8-C94F-4BB7-35F0-9CEC8ABC24F5" value="true"/>
+</engineerTo>
+<referedAttribute>042AC4B7-2F5A-83B5-7D74-128DBB3A03A9</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="AssociadoID2" id="B5A81CFC-E775-7849-2488-9EA38517D782">
+<createdBy>caio.enrique</createdBy>
+<createdTime>2025-05-20 00:41:08 UTC</createdTime>
+<generatorID>771B917F-433C-96ED-4D12-B889B6439C4C</generatorID>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<engineerTo>
+<item key="EC81D5D8-C94F-4BB7-35F0-9CEC8ABC24F5" value="true"/>
+</engineerTo>
+<referedAttribute>7B9F5F59-9D81-3295-4C94-97E0C7DA39C4</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="9C7F7CA1-7026-DE6F-DEB4-81B49C2B25AF" name="TelefoneCliente PK">
+<createdBy>caio.enrique</createdBy>
+<createdTime>2025-05-19 23:40:08 UTC</createdTime>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<engineerTo>
+<item key="EC81D5D8-C94F-4BB7-35F0-9CEC8ABC24F5" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>BC31EC4D-BDC0-2B37-CEA1-877D62BEEB04</attributeRef>
+<attributeRef>667CE84F-F227-3EF6-3450-2809CE05B40C</attributeRef>
+<attributeRef>4DDCF8B5-1B66-34DF-40C0-6F5E68CD6507</attributeRef>
+<attributeRef>C8D24C31-714C-3792-3BEA-C66D3813601F</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
