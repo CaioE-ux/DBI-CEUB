@@ -1,4 +1,3 @@
----
 
 # Feedback menção 2 - Atividades avaliativas de práticas de Modelagem de Bando de Dados
 ## a) Efetivou e subiu no GIT:
@@ -19,4 +18,3 @@
  
  [X] - Relacionamentos e cardinalidades
 
----
